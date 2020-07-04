@@ -1,0 +1,155 @@
+body {
+
+    width: 100%;
+  
+    height: 100%;
+  
+    margin: 0;
+  
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  /*  Header Style*/
+  
+  header {
+  
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    flex-wrap: wrap;
+  
+    background-color: gray;
+  
+    padding: 10px;
+  
+  }
+  
+  .navmenu {
+    list-style: none;
+    display: flex;
+  
+  }
+  
+  .navmenu > li > a {
+  
+    margin: 0 10px;
+  
+    color: black;
+  
+    font-weight: 600;
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  
+  .navmenu > li > a:hover {
+  
+    text-decoration: underline;
+  
+  }
+  
+  /*  Total price Style*/
+  
+  .sum-price {
+      display: flex;
+      justify-content: center;	
+      background-color: white;
+      border: 1px solid rgba(8, 8, 8, 0.473);
+      margin-bottom: 0px;
+      font-size: 30px	
+  }
+  
+  /*  Title column Style*/
+  
+  .title-colomn{
+  
+      display: flex;
+  
+     justify-content: space-between;
+  
+  padding: 40px;
+  
+     background-color:white;
+  
+    border: 1px solid rgba(8, 8, 8, 0.473);
+  
+    font-size: 20px	
+  
+  }
+  
+  /*  shopping cart  Style*/
+  
+  .shopping-bag {
+  
+      display: flex;
+  
+      flex-direction: column;
+  
+    border: 2px solid rgba(8, 8, 8, 0.473);
+  
+    background-color:white;
+  
+  }
+  
+  .item {
+  
+    display: flex;
+  
+  justify-content: space-between;
+  
+    padding: 25px;
+  
+  border-bottom: 1px solid rgba(8, 8, 8, 0.473);
+  
+  }
+  
+  span {
+  
+  display: block;
+  
+  }
+  
+  .buttons {
+  
+  padding: 20px;
+  
+  }
+  
+  .-quantity- {
+  
+      display: flex;
+  
+  align-items: baseline;
+  
+  padding: 20px;
+  
+  }
+  
+  .unit,.price {
+  
+    display: flex;
+  
+    align-items: center;
+  
+  }
+  
+  .quanti > input {
+  
+    border: none;
+  
+  width: 15px;
+  
+  }
+  
+  .button-remove,.button-like{
+  
+       padding: 20px;
+  
+  }
+	
